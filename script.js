@@ -6,11 +6,14 @@ document.addEventListener('DOMContentLoaded', function() {
     var next = document.querySelector('.gallerynext');
     
     
+    
     prev.addEventListener('click', function() {
       stream.insertBefore(items[items.length - 1], items[0]);
       items = document.querySelectorAll('.galleryitem');
     });
-    
+    console.log(stream);
+    console.log(items);
+    console.log()
     
     next.addEventListener('click', function() {
       stream.appendChild(items[0]);

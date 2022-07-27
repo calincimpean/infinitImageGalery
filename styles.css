@@ -8,6 +8,13 @@
   body {
     background-color: black;
   }
+
+  .flexcenter{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    
+  }
   
   
   .gallery {
@@ -101,6 +108,8 @@
     opacity: 0.35;
     border:none;
     font-size:20px;
+    
+
   }
   
   .galleryprev {
@@ -153,4 +162,17 @@
   .bg-7 {
     background-image: url(https://wallpaperaccess.com/full/513133.jpg);
   }
+  @media only screen and (max-width: 1300px)
   
+  {
+    .netflix{
+        display: none;
+    }
+  }
+  @media only screen and (max-height: 700px)
+  
+  {
+    .netflix{
+        display: none;
+    }
+  }
